@@ -2357,9 +2357,9 @@ pub(crate) const LIST: &[(&str, TargetInfo<'static>)] = &[
         },
     ),
     (
-        "riscv64imac-succinct-zkvm-elf",
+        "riscv64im-succinct-zkvm-elf",
         TargetInfo {
-            full_arch: "riscv64imac",
+            full_arch: "riscv64im",
             arch: "riscv64",
             vendor: "succinct",
             os: "zkvm",
